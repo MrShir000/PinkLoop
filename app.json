@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "PinkLoop",
+    "slug": "pinkloop5",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/img/splash/icon.png",
+    "android": {
+      "splash": {
+        "mdpi": "./assets/img/splash/splash.png",
+        "hdpi": "./assets/img/splash/splash.png",
+        "xhdpi": "./assets/img/splash/splash.png",
+        "xxhdpi": "./assets/img/splash/splash.png",
+        "xxxhdpi": "./assets/img/splash/splash.png ",
+        " resizeMode ": " cover "
+      }
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
